@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7608AFE1BED465900D31B90 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7608AFC1BED465900D31B90 /* ImageViewController.swift */; };
+		D7608AFF1BED465900D31B90 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7608AFD1BED465900D31B90 /* ImageViewController.xib */; };
 		D7FA21EB1BEBF58700E7E0DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FA21EA1BEBF58700E7E0DA /* AppDelegate.swift */; };
 		D7FA21ED1BEBF58700E7E0DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FA21EC1BEBF58700E7E0DA /* ViewController.swift */; };
 		D7FA21F01BEBF58700E7E0DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FA21EE1BEBF58700E7E0DA /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7608AFC1BED465900D31B90 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		D7608AFD1BED465900D31B90 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		D7FA21E71BEBF58700E7E0DA /* intergalacticTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = intergalacticTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FA21EA1BEBF58700E7E0DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7FA21EC1BEBF58700E7E0DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				D7FA21EA1BEBF58700E7E0DA /* AppDelegate.swift */,
 				D7FA21EC1BEBF58700E7E0DA /* ViewController.swift */,
 				D7FA21EE1BEBF58700E7E0DA /* Main.storyboard */,
+				D7608AFC1BED465900D31B90 /* ImageViewController.swift */,
+				D7608AFD1BED465900D31B90 /* ImageViewController.xib */,
 				D7FA21F11BEBF58700E7E0DA /* Assets.xcassets */,
 				D7FA21F31BEBF58700E7E0DA /* LaunchScreen.storyboard */,
 				D7FA21F61BEBF58700E7E0DA /* Info.plist */,
@@ -231,6 +237,7 @@
 			files = (
 				D7FA21F51BEBF58700E7E0DA /* LaunchScreen.storyboard in Resources */,
 				D7FA21F21BEBF58700E7E0DA /* Assets.xcassets in Resources */,
+				D7608AFF1BED465900D31B90 /* ImageViewController.xib in Resources */,
 				D7FA21F01BEBF58700E7E0DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7FA21ED1BEBF58700E7E0DA /* ViewController.swift in Sources */,
+				D7608AFE1BED465900D31B90 /* ImageViewController.swift in Sources */,
 				D7FA21EB1BEBF58700E7E0DA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +492,7 @@
 				D7FA22111BEBF58700E7E0DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7FA22121BEBF58700E7E0DA /* Build configuration list for PBXNativeTarget "intergalacticTravelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				D7FA22141BEBF58700E7E0DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7FA22151BEBF58700E7E0DA /* Build configuration list for PBXNativeTarget "intergalacticTravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				D7FA22171BEBF58700E7E0DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
